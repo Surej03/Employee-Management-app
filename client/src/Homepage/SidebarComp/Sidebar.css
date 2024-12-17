@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #aeacac;
+    color: darkblue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+    left: -200px;
+    font-weight:600;
+  }
+  .sidebar:hover {
+    background-color: #e5dfea;
+    left: 0;
+  }
+  .signout-btn {
+    color: darkblue;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li a, .sidebar ul li button {
+    color: darkblue;
+    text-decoration: none;
+    font-size: 1em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-weight:600;
+  }
+  
+  .sidebar ul li a:hover, .sidebar ul li button:hover {
+    color: #ccc;
+  }
+  .myemployee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.myemployee h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.employee-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 10px 0;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.2s;
+    position: relative;
+    display:grid;
+}
+
+.employee-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.employee-card p {
+    font-size: 16px;
+    color: #555;
+    margin: 4px 0;
+}
+.myemployeepara{
+  color: #333;
+  display: flex;
+  position: relative;
+  top: 100px;
+  left: 10px;
+  text-align: center;
+  font-weight: 600;
+}

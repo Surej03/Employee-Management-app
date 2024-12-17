@@ -1,0 +1,7 @@
+npm init -y : To skip unnecessary questions such package name, desc
+npm i express cors
+npm i nodemon -D
+
+npm create vite@latest
+npm i axios - to access api
+npm install react-router-dom
